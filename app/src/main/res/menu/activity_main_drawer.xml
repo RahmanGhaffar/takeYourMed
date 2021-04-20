@@ -9,6 +9,18 @@
             android:icon="@drawable/ic_baseline_home_24"
             android:title="@string/menu_home" />
         <item
+            android:id="@+id/nav_reminder"
+            android:icon="@drawable/ic_baseline_alarm_24"
+            android:title="@string/menu_reminder" />
+        <item
+            android:id="@+id/nav_doctor"
+            android:icon="@drawable/ic_baseline_local_hospital_24"
+            android:title="@string/menu_doctor" />
+        <item
+            android:id="@+id/nav_eyedisease"
+            android:icon="@drawable/ic_baseline_remove_red_eye_24"
+            android:title="@string/menu_eyedisease" />
+        <item
             android:id="@+id/nav_profile"
             android:icon="@drawable/ic_baseline_person_24"
             android:title="@string/menu_profile" />
@@ -16,5 +28,6 @@
             android:id="@+id/nav_info"
             android:icon="@drawable/ic_baseline_info_24"
             android:title="@string/menu_info" />
+
     </group>
 </menu>

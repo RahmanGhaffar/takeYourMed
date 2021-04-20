@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TakeYourMed">
+        <activity android:name=".ui.doctor.DoctorActivity"></activity>
+        <activity android:name=".ui.eyedisease.EyeDiseaseActivity" />
+        <activity android:name=".ui.reminder.ReminderActivity" />
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"

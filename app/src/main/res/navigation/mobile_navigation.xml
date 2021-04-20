@@ -15,11 +15,29 @@
         android:id="@+id/nav_profile"
         android:name="com.example.takeyourmed.ui.profile.ProfileFragment"
         android:label="@string/menu_profile"
-        tools:layout="@layout/fragment_setting" />
+        tools:layout="@layout/fragment_profile" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.takeyourmed.ui.slideshow.SlideshowFragment"
+        android:id="@+id/nav_reminder"
+        android:name="com.example.takeyourmed.ui.reminder.ReminderFragment"
+        android:label="@string/menu_reminder"
+        tools:layout="@layout/fragment_reminder" />
+
+    <fragment
+        android:id="@+id/nav_doctor"
+        android:name="com.example.takeyourmed.ui.doctor.DoctorFragment"
+        android:label="@string/menu_doctor"
+        tools:layout="@layout/doctor_fragment" />
+
+    <fragment
+        android:id="@+id/nav_eyedisease"
+        android:name="com.example.takeyourmed.ui.eyedisease.EyeDiseaseFragment"
+        android:label="@string/menu_eyedisease"
+        tools:layout="@layout/eye_disease_fragment" />
+
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.example.takeyourmed.ui.info.InfoFragment"
         android:label="@string/menu_info"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_info" />
 </navigation>
