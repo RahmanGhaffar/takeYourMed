@@ -15,6 +15,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.takeyourmed.R;
+import com.example.takeyourmed.ui.camera.CaptureCameraActivity;
 import com.example.takeyourmed.ui.doctor.DoctorActivity;
 import com.example.takeyourmed.ui.eyedisease.EyeDiseaseActivity;
 import com.example.takeyourmed.ui.reminder.ReminderActivity;
@@ -85,7 +86,8 @@ public class HomeFragment extends Fragment {
                         startActivity(EyeDiseaseIntent);
                     }
                     else if (finalI == 3) {
-                        Toast.makeText(getActivity().getApplicationContext(), "Take Picture Action", Toast.LENGTH_SHORT).show();
+                        Intent cameraIntent = new Intent(getActivity().getApplicationContext(), CaptureCameraActivity.class);
+                        startActivity(cameraIntent);
                     }
                     else if (finalI == 4) {
                         Toast.makeText(getActivity().getApplicationContext(), "Share Picture Action", Toast.LENGTH_SHORT).show();
