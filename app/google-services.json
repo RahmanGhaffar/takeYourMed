@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "644751011524",
+    "firebase_url": "https://takeyourmed-137a2-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "takeyourmed-137a2",
+    "storage_bucket": "takeyourmed-137a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644751011524:android:7489a3f012c58ffb44a391",
+        "android_client_info": {
+          "package_name": "com.example.takeyourmed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644751011524-39nqag68ima65ai7t9if4aj7q9fo66c3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACStbR6eZGY9bAeiK6DgNRnxLx30-Xgc8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644751011524-39nqag68ima65ai7t9if4aj7q9fo66c3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

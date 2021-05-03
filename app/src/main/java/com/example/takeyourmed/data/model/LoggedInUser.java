@@ -5,19 +5,48 @@ package com.example.takeyourmed.data.model;
  */
 public class LoggedInUser {
 
-    private String userId;
-    private String displayName;
+    private String username;
+    private String email;
+    private String phone;
 
-    public LoggedInUser(String userId, String displayName) {
-        this.userId = userId;
-        this.displayName = displayName;
+    public LoggedInUser() {
+    }
+
+    public LoggedInUser(String username, String email, String phone) {
+        this.username = username;
+        this.email = email;
+        this.phone = phone;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public String getUserId() {
-        return userId;
+        return username;
     }
 
     public String getDisplayName() {
-        return displayName;
+        return username;
     }
 }

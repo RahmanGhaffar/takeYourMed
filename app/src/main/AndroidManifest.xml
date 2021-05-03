@@ -15,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TakeYourMed">
-        <activity android:name=".ui.camera.CaptureCameraActivity"></activity>
+        <activity android:name=".ui.singup.SignupActivity"></activity>
+        <activity android:name=".ui.camera.CaptureCameraActivity" />
         <activity android:name=".ui.doctor.DoctorActivity" />
         <activity android:name=".ui.eyedisease.EyeDiseaseActivity" />
         <activity android:name=".ui.reminder.ReminderActivity" />
